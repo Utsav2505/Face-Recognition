@@ -1,4 +1,6 @@
 # Face Recognition Project
+![image](https://github.com/Utsav2505/Face-Recognition/assets/64308597/9d5df824-2e77-4a2e-ab9b-b2efa16b85f8)
+
 
 ## Overview
 This project implements a simple face recognition system using OpenCV in Python. The system uses Haar Cascade for face detection and LBPH (Local Binary Pattern Histograms) for face recognition. It is designed to recognize faces of specific individuals in images.
