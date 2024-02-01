@@ -7,10 +7,10 @@ import numpy as np
 people = ['John Wick']
 
 # Specify the directory where the training data is located
-DIR = r'E:\Documents\Python\Open CV\Face Recognition\Train'
+DIR = r'Train'
 
 # Load the Haar Cascade for face detection
-haar_cascade = cv.CascadeClassifier('E:\Documents\Python\Open CV\FaceDetection\HardCascades\haar_face.xml')
+haar_cascade = cv.CascadeClassifier('Haar_Cascades\haar_face.xml')
 
 # Initialize empty lists to store features and labels for training
 features = []

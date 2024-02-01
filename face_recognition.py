@@ -3,7 +3,7 @@ import numpy as np
 import cv2 as cv
 
 # Load the Haar Cascade for face detection
-haar_cascade = cv.CascadeClassifier('E:\Documents\Python\Open CV\FaceDetection\HardCascades\haar_face.xml')
+haar_cascade = cv.CascadeClassifier('Haar_Cascades\haar_face.xml')
 
 # Define a list of people for recognition
 people = ['John Wick']
