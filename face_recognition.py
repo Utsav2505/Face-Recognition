@@ -6,7 +6,7 @@ import cv2 as cv
 haar_cascade = cv.CascadeClassifier('E:\Documents\Python\Open CV\FaceDetection\HardCascades\haar_face.xml')
 
 # Define a list of people for recognition
-people = ['Udita', 'John Wick']
+people = ['John Wick']
 
 # Load the pre-trained features and labels
 features = np.load('features.npy', allow_pickle=True)
@@ -19,7 +19,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
 # Read an image for testing
-img = cv.imread(r'test2.JPG')
+img = cv.imread(r'test1.jfif')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 # Detect faces in the grayscale image

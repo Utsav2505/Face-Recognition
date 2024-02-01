@@ -4,7 +4,7 @@ import cv2 as cv
 import numpy as np
 
 # Define a list of people to recognize
-people = ['Udita','John Wick']
+people = ['John Wick']
 
 # Specify the directory where the training data is located
 DIR = r'E:\Documents\Python\Open CV\Face Recognition\Train'
